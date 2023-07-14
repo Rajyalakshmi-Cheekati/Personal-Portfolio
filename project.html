@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>Personal Portifilo</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel"stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+<!-----Google Script----------->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X5X0Q2S8NL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X5X0Q2S8NL');
+</script>
+
+
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logoimage.jpeg"</a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="Index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="project.html">PROJECTS</a></li>
+					<li><a href="resume.html">RESUME</a></li>
+					<li><a href="Experience.html">EXPERIENCE</a></li>
+					<li><a href="others.html">OTHERS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars"onclick="showMenu()"></i>
+		</nav>
+		<h1>My Projects</h1>
+	</section>
+<!------------------------------------------------------------Project content----------------------------------------------------->
+<section class="project">
+	<h1>PROJECTS</h1>
+	<p>Creative Showroom : A Glimpse into My Project Portfolio</p>
+	
+	<div class="row">
+		<div class="project-col">
+			<h3>Detecting face masks using Python, Keras, Open CV on real video streams</h3>
+			<p>The goal is to develop a Python program that can detect whether a person is
+wearing a face mask or not in real-time video streams using Keras and OpenCV. The
+program should be able to process a live video feed or recorded video footage and
+accurately classify each person's face as either wearing a mask or not.</p>
+		<a href="https://github.com/Rajyalakshmi-Cheekati/Face-Mask-Detection" class="hero-btn blue1-btn">Click Here To See The Source Code</a>
+		</div>
+		<div class="project-col">
+			<h3>Determining & Vigilance of Road Accident Hotspots using Machine Learning Techniques</h3>
+			<p>The objective is to develop a machine learning solution that can determine and
+identify road accident hotspots to improve road safety measures. The solution
+should analyze historical accident data and relevant features to predict the
+likelihood of future accidents at different locations. By identifying accident-prone
+areas, authorities can take proactive measures to reduce the frequency and severity
+of accidents in those locations.</p>
+		<a href="https://github.com/Rajyalakshmi-Cheekati/Determining-The-Vigilance-of-Road-Accident-Hotspots-Using-Machine-Learning-Techniques" class="hero-btn blue1-btn">Click Here To See The Source Code</a>
+		</div>
+		<div class="project-col">
+			<h3>Electric Vehicles Market Segmentation Analysis Using ML Classification Techniques</h3>
+			<p>The objective is to perform market segmentation analysis for the electric vehicles
+(EVs) market using machine learning classification techniques. The goal is to classify
+customers or potential buyers into different segments based on their characteristics, preferences, or behavior related to electric vehicles. This analysis
+can help understand the target audience, tailor marketing strategies, and develop
+customized offerings to maximize the adoption and sales of electric vehicles.</p>
+<a href="https://github.com/Rajyalakshmi-Cheekati/Electric_Vechile_Market_Segmentation_Analysis" class="hero-btn blue1-btn">Click Here To See The Source Code</a>
+		</div>
+	</div>
+	
+</section>
+	
+	
+
+
+
+
+
+
+
+
+
+<!-----------------------------------------------------------Footer------------------------->
+<section class="footer">
+	<h4>About Me</h4>
+	<p>Thank you for visiting my website!</p>
+	<div class="icons">
+		<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+		<i class="fa fa-twitter-square" aria-hidden="true"></i>
+		<i class="fa fa-instagram" aria-hidden="true"></i>
+		<i class="fa fa-facebook-square" aria-hidden="true"></i>
+	</div>
+	<p>*******Made By Me********</P>
+</section>
+
+
+<!------------------------------------------------------------JavaScript for Toggle Menu--------------------------------------------------------------------->
+	<script>
+		var navLinks=document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right="0";
+			
+		}
+		function hideMenu(){
+			navLinks.style.right="-200px";
+			
+		}
+	
+	</script>
+
+</body>
+</html>

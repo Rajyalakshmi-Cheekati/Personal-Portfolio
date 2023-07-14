@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>Personal Portifilo</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel"stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+<!-----Google Script----------->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X5X0Q2S8NL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X5X0Q2S8NL');
+</script>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logoimage.jpeg"</a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="Index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="project.html">PROJECTS</a></li>
+					<li><a href="resume.html">RESUME</a></li>
+					<li><a href="Experience.html">EXPERIENCE</a></li>
+					<li><a href="others.html">OTHERS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars"onclick="showMenu()"></i>
+		</nav>
+		<h1>About Me</h1>
+	</section>
+<!----------------about me content---------------->
+<section class="about-me">
+	<div class="row">
+		
+		<p><b style="color:black" style=text-align:"center">Eager and Ambitious Fresher with a Passion for IT Field Ready to Make a Mark</b><br><br>Welcome to my personal website! I'm Rajya Lakshmi Cheekati, a passionate and dedicated job seeker with a strong educational background. I am excited to share my experiences, skills, and aspirations with you.I am currently seeking new opportunities that will allow me to utilize my skills and make a meaningful impact. If you think I would be a good fit for your team or have any exciting projects you'd like to discuss, I would love to hear from you! Feel free to reach out via the contact information provided on this website.
+		I look forward to connecting with you soon!<br><br><a href="" class="hero-btn red-btn">EXPLORE NOW</a></p>
+		
+		<div class="aboutme-col">
+			<img src="image3.jpeg">
+			
+		</div>
+	</div>
+</section>
+	
+
+
+
+
+
+
+
+
+
+<!-----------------------------------------------------------Footer------------------------->
+<section class="footer">
+	<h4>About Me</h4>
+	<p>Thank you for visiting my website!</p>
+	<div class="icons">
+		<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+		<i class="fa fa-twitter-square" aria-hidden="true"></i>
+		<i class="fa fa-instagram" aria-hidden="true"></i>
+		<i class="fa fa-facebook-square" aria-hidden="true"></i>
+	</div>
+	<p>*******Made By Me********</P>
+</section>
+
+
+<!------------------------------------------------------------JavaScript for Toggle Menu--------------------------------------------------------------------->
+	<script>
+		var navLinks=document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right="0";
+			
+		}
+		function hideMenu(){
+			navLinks.style.right="-200px";
+			
+		}
+	
+	</script>
+
+</body>
+</html>
